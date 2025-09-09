@@ -1,0 +1,53 @@
+.ml-visualization {
+  background: linear-gradient(135deg, var(--card-bg) 0%, var(--card-bg) 100%);
+  border-radius: 15px;
+  padding: 1.5rem;
+  border: 1px solid var(--border-color);
+  height: 100%;
+}
+
+.ml-header {
+  background: linear-gradient(135deg, #6f42c1 0%, #4a2d82 100%);
+  color: white;
+  padding: 1rem 1.5rem;
+  margin: -1.5rem -1.5rem 1.5rem -1.5rem;
+  border-radius: 15px 15px 0 0;
+}
+
+.progress-container {
+  margin-bottom: 1.5rem;
+}
+
+.progress-label {
+  display: flex;
+  justify-content: between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.progress-value {
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+.insights-list {
+  list-style: none;
+  padding: 0;
+}
+
+.insights-list li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.insights-list li:last-child {
+  border-bottom: none;
+}
+
+.insights-list li::before {
+  content: '✅';
+  font-size: 0.8rem;
+}

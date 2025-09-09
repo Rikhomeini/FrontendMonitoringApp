@@ -1,0 +1,36 @@
+.bg-purple {
+  background: linear-gradient(135deg, #6f42c1 0%, #4a2d82 100%);
+}
+
+.timeline {
+  position: relative;
+  padding-left: 2rem;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.timeline-marker {
+  position: absolute;
+  left: -2rem;
+  top: 0.25rem;
+}
+
+.marker {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.marker.completed { background-color: #198754; }
+.marker.scheduled { background-color: #ffc107; }
+.marker.upcoming { background-color: #0dcaf0; }
+
+.timeline-content {
+  padding: 0.5rem;
+  border-radius: 6px;
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+}

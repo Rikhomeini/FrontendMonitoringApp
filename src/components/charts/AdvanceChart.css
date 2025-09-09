@@ -1,0 +1,99 @@
+.advanced-chart-card {
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.chart-header {
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  color: white;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.chart-icon {
+  margin-right: 8px;
+}
+
+.time-selector {
+  width: auto;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+}
+
+.time-selector:focus {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-color: rgba(255, 255, 255, 0.5);
+  color: white;
+}
+
+.chart-container {
+  margin-bottom: 20px;
+}
+
+.custom-tooltip {
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 12px;
+  color: white;
+}
+
+.tooltip-time {
+  font-weight: bold;
+  margin-bottom: 8px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding-bottom: 4px;
+}
+
+.tooltip-value {
+  margin: 4px 0;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.tooltip-anomaly {
+  margin: 4px 0;
+  color: #ff6b6b;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.chart-stats {
+  display: flex;
+  justify-content: space-around;
+  padding: 16px;
+  background-color: var(--light-bg);
+  border-radius: 8px;
+  margin-top: 16px;
+}
+
+.stat-item {
+  text-align: center;
+}
+
+.stat-label {
+  display: block;
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-bottom: 4px;
+}
+
+.stat-value {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+/* CSS Variables */
+:root {
+  --primary-color: #3b82f6;
+  --secondary-color: #6366f1;
+  --border-color: #e5e7eb;
+  --text-color: #374151;
+  --text-muted: #6b7280;
+  --light-bg: #f8fafc;
+}
